@@ -36,3 +36,6 @@ build/
 /mvnw.cmd
 /logs/
 /src/test/
+
+.devbox
+*.lock
