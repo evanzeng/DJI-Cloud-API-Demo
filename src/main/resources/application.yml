@@ -136,6 +136,3 @@ ntp:
 # To create a license for an application: https://developer.dji.com/user/apps/#all
 cloud-api:
   app:
-    id: '135860'
-    key: 3ca2ed73da8d49f6a7d38c0a5b06c11
-    license: cY+hdGbzEKWpQLHlvnI9zmNi4vGVLC/ztNy2NmKgAZYzYaKiqgKJy3dxznjRbLpOsBoVNmPYrXcJhuWc0VE71CwpLOkkjtJHhgAHVh4SW4v6ljcjcQ+AzV/je0MGiOQqL58h8AkZLPxC0kABAsdg11LxuBYojA5mc3FUV1mNQNU=
