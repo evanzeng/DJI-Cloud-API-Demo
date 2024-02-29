@@ -1,0 +1,90 @@
+[
+  {
+    "topic": "thing/product/4TADKC7001000N/state",
+    "payload": {
+      "tid": "cca6da43-d3b2-4c21-95d9-12051e6eeaed",
+      "bid": "8b1813e5-d2e6-4695-8136-e1de6ec493a9",
+      "data": {
+        "firmware_version": "01.05.0908",
+        "compatible_status": 0,
+        "firmware_upgrade_status": 0
+      },
+      "gateway": "4TADKC7001000N"
+    }
+  },
+  {
+    "topic": "thing/product/4TADKC7001000N/state",
+    "payload": {
+      "tid": "fd17b410-39e7-40fa-8a24-576a657e93bd",
+      "bid": "dca8213b-6837-4689-8edc-fd948fcce4b6",
+      "data": { "live_status": [] },
+      "gateway": "4TADKC7001000N"
+    }
+  },
+  {
+    "topic": "thing/product/4TADKC7001000N/state",
+    "payload": {
+      "tid": "4e1a53e5-046d-41f5-b173-0b0be3144745",
+      "bid": "b921b995-2da1-476a-afc3-5d921f274c96",
+      "data": {
+        "live_capacity": {
+          "available_video_number": 3,
+          "coexist_video_number_max": 3,
+          "device_list": [
+            {
+              "sn": "4TADKC7001000N",
+              "available_video_number": 1,
+              "coexist_video_number_max": 1,
+              "camera_list": [
+                {
+                  "camera_index": "165-0-7",
+                  "available_video_number": 1,
+                  "coexist_video_number_max": 1,
+                  "video_list": [
+                    {
+                      "video_index": "normal-0",
+                      "video_type": "normal",
+                      "switchable_video_types": ["normal"]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sn": "1581F5BMD22C3001365Z",
+              "available_video_number": 2,
+              "coexist_video_number_max": 2,
+              "camera_list": [
+                {
+                  "camera_index": "39-0-7",
+                  "available_video_number": 1,
+                  "coexist_video_number_max": 1,
+                  "video_list": [
+                    {
+                      "video_index": "normal-0",
+                      "video_type": "normal",
+                      "switchable_video_types": ["normal"]
+                    }
+                  ]
+                },
+                {
+                  "camera_index": "53-0-0",
+                  "available_video_number": 1,
+                  "coexist_video_number_max": 1,
+                  "video_list": [
+                    {
+                      "video_index": "normal-0",
+                      "video_type": "wide",
+                      "switchable_video_types": ["normal", "wide", "zoom", "ir"]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "gateway": "4TADKC7001000N"
+    }
+  }
+]

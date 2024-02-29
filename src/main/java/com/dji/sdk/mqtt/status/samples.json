@@ -1,0 +1,47 @@
+[
+  {
+    "topic": "sys/product/4TADKC7001000N/status",
+    "payload": {
+      "tid": "dc87e381-a05c-4210-a9c8-5f7a18abb31e",
+      "bid": "fb2ad76e-b752-4874-a50b-a822fa0cdb10",
+      "method": "update_topo",
+      "data": {
+        "domain": "3",
+        "type": 1,
+        "sub_type": 0,
+        "device_secret": "7f59afe1b8b95bef54c3202bc5c0d943",
+        "nonce": "17645a792260a46385c67627d2803771",
+        "thing_version": "1.1.2",
+        "sub_devices": []
+      }
+    }
+  },
+  {
+    "topic": "sys/product/4TADKC7001000N/status",
+    "payload": {
+      "tid": "3e18dc52-d548-4abd-9002-7782420512f5",
+      "bid": "a635223a-9fbc-43d3-b557-dcc24ce8a4f7",
+      "method": "update_topo",
+      "data": {
+        "domain": "3",
+        "type": 1,
+        "sub_type": 0,
+        "device_secret": "7f59afe1b8b95bef54c3202bc5c0d943",
+        "nonce": "17645a792260a46385c67627d2803771",
+        "thing_version": "1.1.2",
+        "sub_devices": [
+          {
+            "sn": "1581F5BMD22C3001365Z",
+            "domain": "0",
+            "type": 67,
+            "sub_type": 1,
+            "index": "A",
+            "device_secret": "8cea7a26a94a82baf89eec4ee06a4274",
+            "nonce": "3c55040931b2867d00b0284a695abf3f",
+            "thing_version": "1.1.2"
+          }
+        ]
+      }
+    }
+  }
+]

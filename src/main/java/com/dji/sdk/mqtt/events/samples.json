@@ -1,0 +1,49 @@
+[
+  {
+    "implemented": false,
+    "topic": "thing/product/4TADKC7001000N/events",
+    "payload": {
+      "bid": "a339d6af-8fd6-4ac9-80cd-9ab265bc9cf0",
+      "data": {
+        "drone_locations": [
+          {
+            "area_distance": 27.960994720458984,
+            "area_id": "25cb2c9a-7ad1-486d-8c6c-9eeb91a8be8e",
+            "is_in_area": true
+          },
+          {
+            "area_distance": 100.52042388916016,
+            "area_id": "e65c3d99-144d-4241-a090-f22011e379d7",
+            "is_in_area": false
+          }
+        ]
+      },
+      "method": "flight_areas_drone_location",
+      "need_reply": 0,
+      "tid": "d29d6e74-e111-4e39-b25f-30005c155230",
+      "gateway": "4TADKC7001000N"
+    }
+  },
+  {
+    "topic": "thing/product/4TADKC7001000N/events",
+    "payload": {
+      "tid": "42296d98-4cf7-4ee9-a46d-0b2791a6b080",
+      "bid": "0baffcc7-442d-4a71-882f-a445bfb53829",
+      "data": {
+        "list": [
+          {
+            "args": { "component_index": 0, "sensor_index": 0 },
+            "code": "0x19111400",
+            "device_type": "3-1-0",
+            "imminent": 1,
+            "in_the_sky": 0,
+            "level": 1,
+            "module": 3
+          }
+        ]
+      },
+      "method": "hms",
+      "gateway": "4TADKC7001000N"
+    }
+  }
+]

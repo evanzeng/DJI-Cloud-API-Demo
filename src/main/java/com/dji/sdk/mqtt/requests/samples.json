@@ -1,0 +1,54 @@
+[
+  {
+    "topic": "thing/product/4TADKC7001000N/requests",
+    "payload": {
+      "method": "airport_bind_status",
+      "bid": "9e983d77-3238-4551-a69d-0a879490e507",
+      "tid": "b110a84e-f89d-4d8e-a328-9034a346585d",
+      "data": { "devices": [{ "sn": "4TADKC7001000N" }] },
+      "gateway": "4TADKC7001000N"
+    }
+  },
+  {
+    "topic": "thing/product/4TADKC7001000N/requests",
+    "payload": {
+      "method": "airport_organization_get",
+      "bid": "7df8e03b-a725-4ae8-969a-1371d9119c01",
+      "tid": "72e30629-41e9-4472-ab83-07b96dd3528c",
+      "data": { "device_binding_code": "EMAHVW", "organization_id": "C0NFIS" },
+      "gateway": "4TADKC7001000N"
+    }
+  },
+  {
+    "topic": "thing/product/4TADKC7001000N/requests",
+    "payload": {
+      "method": "airport_organization_bind",
+      "bid": "c4003683-d0fd-4da9-a294-ddaf1601a33a",
+      "tid": "748fa6c7-8ec0-4655-ba61-d06d0471a774",
+      "data": {
+        "bind_devices": [
+          {
+            "device_binding_code": "EMAHVW",
+            "organization_id": "C0NFIS",
+            "device_callsign": "",
+            "sn": "4TADKC7001000N",
+            "device_secret": "7f59afe1b8b95bef54c3202bc5c0d943",
+            "device_nonce": "17645a792260a46385c67627d2803771",
+            "device_model_key": "3-1-0"
+          }
+        ]
+      },
+      "gateway": "4TADKC7001000N"
+    }
+  },
+  {
+    "topic": "thing/product/4TADKC7001000N/requests",
+    "payload": {
+      "tid": "c461f440-914b-4671-b45b-ea927722f2ea",
+      "bid": "56a48319-1397-4689-94bc-835be31553f9",
+      "method": "config",
+      "data": { "config_type": "json", "config_scope": "product" },
+      "gateway": "4TADKC7001000N"
+    }
+  }
+]
