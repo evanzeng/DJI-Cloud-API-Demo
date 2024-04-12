@@ -11,7 +11,7 @@ spring:
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://localhost:3306/cloud_sample?useSSL=false&allowPublicKeyRetrieval=true
       username: root
-      password: b
+      password: 
       initial-size: 10
       min-idle: 10
       max-active: 20
@@ -45,7 +45,7 @@ mqtt:
   # BASIC parameters are required.
   BASIC:
     protocol: MQTT # @see com.dji.sample.component.mqtt.model.MqttProtocolEnum
-    host: 183.62.140.181
+    host: localhost
     port: 1883
     username: JavaServer
     password: 123456
@@ -54,7 +54,7 @@ mqtt:
     path:
   DRC:
     protocol: WS # @see com.dji.sample.component.mqtt.model.MqttProtocolEnum
-    host: 183.62.140.181
+    host: localhost
     port: 8083
     path: /mqtt
     username: JavaServer
@@ -115,9 +115,9 @@ url:
 oss:
  enable: true
  provider: minio
- endpoint: http://183.62.140.181:9000
+ endpoint: http://localhost:9000
  access-key: minioadmin
- secret-key: bminioadmin
+ secret-key: minioadmin
  bucket: cloud-bucket
  expire: 3600
  region: us-east-1
@@ -136,3 +136,6 @@ ntp:
 # To create a license for an application: https://developer.dji.com/user/apps/#all
 cloud-api:
   app:
+  id: '135860'
+  key: 3ca2ed73da8d49f6a7d38c0a5b06c11
+  license: cY+hdGbzEKWpQLHlvnI9zmNi4vGVLC/ztNy2NmKgAZYzYaKiqgKJy3dxznjRbLpOsBoVNmPYrXcJhuWc0VE71CwpLOkkjtJHhgAHVh4SW4v6ljcjcQ+AzV/je0MGiOQqL58h8AkZLPxC0kABAsdg11LxuBYojA5mc3FUV1mNQNU=
