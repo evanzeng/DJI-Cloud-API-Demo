@@ -2,7 +2,9 @@
   "packages": [
     "maven",
     "jdk",
-    "binutils"
+    "binutils",
+    "mysql80@latest",
+    "redis@latest"
   ],
   "shell": {
     "init_hook": null
