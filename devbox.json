@@ -1,7 +1,7 @@
 {
   "packages": [
     "maven",
-    "jdk",
+    "jdk@11",
     "binutils",
     "mysql80@latest",
     "redis@latest"

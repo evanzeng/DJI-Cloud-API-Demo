@@ -116,8 +116,8 @@ oss:
  enable: true
  provider: minio
  endpoint: http://183.62.140.181:9000
- access-key: 1VmLaPFtVOKVJRkBZmia
- secret-key: t0Wl23uVk46y2RzzaLcUa65d874NE4xtvJ2Bzkuw
+ access-key: minioadmin # 1VmLaPFtVOKVJRkBZmia
+ secret-key: birchtree # t0Wl23uVk46y2RzzaLcUa65d874NE4xtvJ2Bzkuw
  bucket: cloud-bucket
  expire: 3600
  region: us-east-1
